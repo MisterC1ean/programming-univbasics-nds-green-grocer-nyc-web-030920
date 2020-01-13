@@ -94,4 +94,5 @@ end
 if cart_total > 100
   cart_total = (cart_total * 0.90).round(2)
 end
+cart_total
 end
